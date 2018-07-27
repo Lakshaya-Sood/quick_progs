@@ -24,3 +24,9 @@ C/c -> Cubic bezier curve
       last two points the coordinates for final points
 Z/z -> closing 
     eg:-means joining the fist point to last point if just Z is added to path value
+    
+ the only difference between absolute and relative positioning is that 
+ the final point coordinates given in each type is 
+ fixed coordinate for absolute 
+ and
+ relative(means adding the x and y start to end point in order to get the absolute fixed postion)
