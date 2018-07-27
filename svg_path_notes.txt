@@ -1,0 +1,26 @@
+M -> starting point of the pen 
+     eg:- M100, 100
+Absolute/relative positioning
+L/l -> line from current point to next(X,Y)
+    eg:- L150, 150
+A/a -> arc from current point to next (X,Y)
+    eg:- A50,50 0 1,1 100,150  ....... three points on mid play a very imp role [0 1,1]
+        starting two points are the radius of curve cx and cy
+        last two points the coordinates for final points
+        three points in the mid means
+         1st= denotes the rotation of the full cirle/ellipse (from which we are just showing a part)
+         2nd(large-arc-flag)= denotes if arc will be bigger or smaller(1-> bigger and 0->smaller)
+         3rd(sweep-flag for mirror)= denotes if to draw arc on left or right of the line joining start and end point (1->right and 0-> left)
+Q/q -> Quadratic bezier curve
+    have a single control point
+    eg:- Q50,200 200,300
+      first two are cordinates for control point(better if you try and get a visualization)
+      last two points the coordinates for final points
+C/c -> Cubic bezier curve
+    have two control points(we can create a sine wave shape bu keeping both points on different direction)
+    eg:- C225,350 375,350 400,300
+      first two are cordinates for control point(better if you try and get a visualization)
+      middle two are cordinates for control point(better if you try and get a visualization)
+      last two points the coordinates for final points
+Z/z -> closing 
+    eg:-means joining the fist point to last point if just Z is added to path value
