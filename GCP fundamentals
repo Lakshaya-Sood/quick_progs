@@ -1,1 +1,17 @@
-fdsfds
+things done in traditional IT infrastructure
+  -new version upgrade (name explains all)
+  -optimal resource utilization (memory and Cpu usage in a balanced way)
+  -network management (request over internet mangement)
+  -database management (doing fast DB operations whiout corrupting DB)
+  -security (protect application and its data from external attacks)
+  
+on-demand computing resources over the internet on a pay-as-you-go pricing model.
+a company that provides this solution is called Cloud Service Provider (CSP).
+
+GCP(Google cloud platform) offers various tools and services which helps in 
+-managing infrastructure (reduces the infrastructure cost, set up time and the maintenance cost)
+-provisioning servers (is secure and easily scalable across locations)
+-configuring networks (can be customized to improve throughput , availability and response time)
+
+
+ NIST(National Institute of Standards and Technology) definition lists five essential characteristics of cloud computing
