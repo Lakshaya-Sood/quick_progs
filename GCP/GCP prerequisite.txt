@@ -4,18 +4,51 @@ Elastic resources — Scale up or down quickly and easily to meet demand
 Metered service so you only pay for what you use
 Self service — All the IT resources you need with self-service access
 
-(*aaS) as a service:
+(*aaS) as a service(Cloud Service models):just get a clear picture of benefits and challenge in each of these
 1)(SaaS) Software as a service => Cloud-based applications - run on distant computers 
-2)(PaaS) Platform as a service => support the complete life-cycle of building and delivering web-based (cloud) applications — without the cost and complexity of buying and managing the underlying hardware, software, provisioning, and hosting
-3)(IaaS) Infrastructure as a service => provides companies with computing resources including servers, networking, storage, and data center space on a pay-per-use basis.
+e.g.:- BI tools, collaboration tools, SAP, CRM, HRD
+CRM(customer relationship management) tools -> Microsoft Dynamics 365
 
-Types of cloud:
+Also pick your:- office suits, CRM, financial planning, human resources, SCM
+
+x-x-x-x-x-x-x-x-x-x-x-x-x-x-x
+-----------------------------
+2)(PaaS) Platform as a service => support the complete life-cycle of building and delivering web-based (cloud) applications — without the cost and complexity of buying and managing the underlying hardware, software, provisioning, and hosting
+eg:- Languages, software supporting / IDE, runtime environment
+
+SAAS will serve[Data&Application] to be configured by user
+underlying infrastructure[<-Runtime-> middle-ware<-OS and virtualization-> Network <-Storage-> Hardware&Processing] user have no control over this
+
+Also pick your - 
+-App server(like oracle web-logic, IBM web-sphere, jboss)
+-webserver (like Apache, iis7)
+-database server(like oracle)
+-middle-ware (like ESB, EAI, MOM, ORB)
+-development environment (like all languages C, C#, python Java )
+
+user will create [Data&Application]
+PaaS will serve [ <-Runtime-> middle-ware] to be configured by user
+underlying infrastructure will automatically be managed[<-OS and virtualization-> Network <-Storage-> Hardware&Processing] user have no control over this
+x-x-x-x-x-x-x-x-x-x-x-x-x-x-x
+-----------------------------
+3)(IaaS) Infrastructure as a service => provides companies with computing resources including servers, networking, storage, and data center space on a pay-per-use basis.
+eg:- storage, computing, RAM, processor, network etc
+
+Also pick your - os, firewall, router, load balancer
+analogy of traditional IT infrastructure & IAAS => owning a car vs renting a car(user is responsible for what it does with the car) 
+
+user will create [Data&Application <-Runtime-> middleware] 
+IAAS will serve[<-OS and virtualization-> Network <-Storage-> Hardware&Processing] to be configured by user
+x-x-x-x-x-x-x-x-x-x-x-x-x-x-x
+Types of cloud computing models:
 1)Public cloud
 2)Private cloud
-3)Hybrid cloud
+3)Community cloud
+4)Hybrid cloud
 
 x-x-x-x-x-x-x-x-x-x-x-x-x-x-x
 Datacenter - https://www.reddit.com/r/explainlikeimfive/comments/20psgp/eli5_what_is_a_data_center_and_what_do_they/
+sand-boxed environments - if one fails then other won't be effected (Virtual machines cannot access the resources of other virtual machines.)
 
 Virtualization is the ability to run multiple virtual machines on a single piece of hardware. The hardware runs software which enables you to install multiple operating systems which are able to run simultaneously and independently, in their own secure environment, with minimal reduction in performance. Each virtual machine has its own virtual CPU, network interfaces, storage and operating system.
 
