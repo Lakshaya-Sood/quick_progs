@@ -1,0 +1,28 @@
+Cloud Computing("the cloud") -> Computing as a service over the internet
+SERVICE INCLUDES:
+Elastic resources — Scale up or down quickly and easily to meet demand
+Metered service so you only pay for what you use
+Self service — All the IT resources you need with self-service access
+
+(*aaS) as a service:
+1)(SaaS) Software as a service => Cloud-based applications - run on distant computers 
+2)(PaaS) Platform as a service => support the complete life-cycle of building and delivering web-based (cloud) applications — without the cost and complexity of buying and managing the underlying hardware, software, provisioning, and hosting
+3)(IaaS) Infrastructure as a service => provides companies with computing resources including servers, networking, storage, and data center space on a pay-per-use basis.
+
+Types of cloud:
+1)Public cloud
+2)Private cloud
+3)Hybrid cloud
+
+x-x-x-x-x-x-x-x-x-x-x-x-x-x-x
+Datacenter - https://www.reddit.com/r/explainlikeimfive/comments/20psgp/eli5_what_is_a_data_center_and_what_do_they/
+
+Virtualization is the ability to run multiple virtual machines on a single piece of hardware. The hardware runs software which enables you to install multiple operating systems which are able to run simultaneously and independently, in their own secure environment, with minimal reduction in performance. Each virtual machine has its own virtual CPU, network interfaces, storage and operating system.
+
+Why Virtualize? -> 
+	as the demand for servers increases in datacenters, 
+	its  growth/scalability becomes difficult due to factors like:-
+		-Increased power and cooling costs
+		-physical space constraints
+		-man power
+		-interconnection complexity
