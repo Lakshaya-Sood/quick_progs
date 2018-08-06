@@ -1,0 +1,16 @@
+-terminal servers (like Citrix)
+-Moore's law is the observation that the number of transistors in a dense integrated circuit doubles about every two years
+-Type 1 & Type 2 hypervisors
+-Debit is what you pay and Credit is what somebody else pays for you
+  
+-vertical scaling = {  // changing the size of individual node  
+		toIncease: "Scale Up",
+		toDecrease: "Scale Down"
+		}
+-Horizontal scaling = { //changing the number of node 
+		toIncease: "Scale Out",
+		toDecrease: "Scale In"
+		}
+-our intellectual powers are rather geared to master static relations and that our powers to visualize processes evolving in time are relatively poorly developed
+- programming paradigms
+- Different Vendors = Different Ideas and Concepts. Like every other Programming Problem...every developer solutes it differently and that's great.PostgreSQL, SQLite, 	  MySQL, MS SQL are just database management systems from different vendors

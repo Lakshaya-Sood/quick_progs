@@ -48,7 +48,7 @@ Types of cloud computing models:
 
 x-x-x-x-x-x-x-x-x-x-x-x-x-x-x
 Datacenter - https://www.reddit.com/r/explainlikeimfive/comments/20psgp/eli5_what_is_a_data_center_and_what_do_they/
-sand-boxed environments - if one fails then other won't be effected (Virtual machines cannot access the resources of other virtual machines.)
+sand-boxed environments - "Even though VMs can run on the same physical hardware, they are still logically separated from each other. This means that if one VM experiences an error, crash or a malware attack, it doesn’t extend to other VMs on the same machine, or even other machines."
 
 Virtualization is the ability to run multiple virtual machines on a single piece of hardware. The hardware runs software which enables you to install multiple operating systems which are able to run simultaneously and independently, in their own secure environment, with minimal reduction in performance. Each virtual machine has its own virtual CPU, network interfaces, storage and operating system.
 
@@ -59,3 +59,13 @@ Why Virtualize? ->
 		-physical space constraints
 		-man power
 		-interconnection complexity
+x-x-x-x-x-x-x-x-x-x-x-x-x-x-x
+MUST READ: https://www.networkworld.com/article/3243262/virtualization/what-is-a-hypervisor.html
+A hypervisor or virtual machine monitor (VMM) is computer software, firmware or hardware that creates and runs virtual machines. A computer on which a hypervisor runs one or more virtual machines is called a host machine, and each virtual machine is called a guest machine. The hypervisor presents the guest operating systems with a virtual operating platform and manages the execution of the guest operating systems. Multiple instances of a variety of operating systems may share the virtualized hardware resources: for example, Linux, Windows, and macOS instances can all run on a single physical x86 machine. This contrasts with operating-system-level virtualization, where all instances (usually called containers) must share a single kernel, though the guest operating systems can differ in user space, such as different Linux distributions with the same kernel...
+
+The hypervisor is an additional layer between physical and virtual spheres; it manages the system’s hardware resources so they are distributed efficiently among virtual machines (VMs).
+--------
+There are two types of hypervisors, creatively named Type 1 or Type 2. 
+1)Type 1 hypervisors, sometimes called “native” or “bare metal” hypervisors, run directly on the host’s hardware to control the hardware and manage the guest VMs. Modern hypervisors include Xen, Oracle VM Server for SPARC, Oracle VM Server for x86, Microsoft Hyper-V and VMware’s ESX/ESXi.
+2)Type 2 hypervisors, sometimes called “hosted hypervisors,” run on a conventional OS, just like other applications on the system. In this case, a guest OS runs as a process on the host, while the hypervisors separate the guest OS from the host OS. Examples of Type 2 hypervisors include VMware Workstation, VMware Player, VirtualBox and Parallels Desktop for Mac.
+--------

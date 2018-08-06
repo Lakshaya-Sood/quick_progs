@@ -8,6 +8,8 @@ things done in traditional IT infrastructure
 on-demand computing resources over the internet on a pay-as-you-go pricing model.
 a company that provides this solution is called Cloud Service Provider (CSP).
 
+cloud hosting is a more ideal option for startup companies that have a great need for flexibility at a lower budget, while on-premise hosting is typically a better choice for established companies with existing IT infrastructure that can support the services they need.
+
 GCP(Google cloud platform) offers various tools and services which helps in 
 -managing infrastructure (reduces the infrastructure cost, set up time and the maintenance cost)
 -provisioning servers (is secure and easily scalable across locations)
@@ -15,3 +17,13 @@ GCP(Google cloud platform) offers various tools and services which helps in
 
 
  NIST(National Institute of Standards and Technology) definition lists five essential characteristics of cloud computing
+ 
+ https://www.azeusconvene.com/cloud-vs-on-premise-hosting-comparison/?cn-reloaded=1
+ 
+ google cloud datastore is a database while google cloud storage is amount files that can be stored
+ in google cloud DATAstore (DB) 
+ no of reads > no of writes > no of deletes (as seen in many applications)
+ Google stack driver 
+	-> amount of logs of an application keeps increasing quickly over time 
+		-> cost is very high as compared to other parts 
+			-> reason because in real time production environment, the ability to finds logs for a bug quickly is invaluable
