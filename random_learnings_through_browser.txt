@@ -13,4 +13,25 @@
 		}
 -our intellectual powers are rather geared to master static relations and that our powers to visualize processes evolving in time are relatively poorly developed
 - programming paradigms
-- Different Vendors = Different Ideas and Concepts. Like every other Programming Problem...every developer solutes it differently and that's great.PostgreSQL, SQLite, 	  MySQL, MS SQL are just database management systems from different vendors
+- Different Vendors = Different Ideas and Concepts. Like every other Programming Problem...every developer solutes it differently and that's great.
+  PostgreSQL, SQLite,MySQL, MS SQL are just database management systems from different vendors
+- script(is interpreted directly) vs program(is compiled, converted into binary/byte/machine code and then executed)
+- http header of response (meta data about the things served by web server)
+	- Content-Encoding types :- gzip, compress, deflates, identity, br
+	- Content-Type Syntax :- "media-type;charset;boundary"
+	- server :- name of the web server applications used by the one severing response
+- A daemon is typically a system process running in background - most of the times waiting for an event to occur, or can provide certain services.
+	like a webserver listening on some port is daemon(waiting for request to come)
+- https://www.netcraft.com -> contains the various surveys related to web & internet
+- A/B testing (keeping some traffic on A and rest on B, just to test/observe A) w.r.t testing different versions of the same server
+- A proxy server is a computer that acts as an intermediary between the user's computer and the Internet. It allows client computers to make indirect network connections to
+  other network services. Nowadays, we use proxy server for various purpose like sharing Internet connections on a local area network, hide our IP address, implement 
+  Internet access control, access blocked websites and so on
+- there are protocols for just sending(like SMTP) and receiving(like POP3, IMAP) mails.
+- HTTPS = HTTP + SSL(secure layer)
+- threading based vs event driven based(everything in a single thread like node, redis & nginx)
+- JavaScript(event loop -> https://www.youtube.com/watch?v=8aGhZQkoFbQ )
+	-> callstack (when error shows stack to trace/ error shows maximum stack exceeded)
+	-> Web browser APi - where inbuilt functions are executes (also if any new was registered) 
+- Best tool to visualize JavaScript Code =======> LINK - latentflip.com/loupe/
+- JavaScript Promises -> https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bKLPQvPRNNE65kBL62mVfx
