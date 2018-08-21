@@ -20,10 +20,24 @@ GCP(Google cloud platform) offers various tools and services which helps in
  
  https://www.azeusconvene.com/cloud-vs-on-premise-hosting-comparison/?cn-reloaded=1
  
- google cloud datastore is a database while google cloud storage is amount files that can be stored
+ google cloud datastore is a database while google cloud storage is for storage of files that can be stored
+ 
  in google cloud DATAstore (DB) 
- no of reads > no of writes > no of deletes (as seen in many applications)
- Google stack driver 
+ no of reads > no of writes > no of deletes (often seen in many applications)
+ 
+ Google stack driver(Why Expensive?)
 	-> amount of logs of an application keeps increasing quickly over time 
 		-> cost is very high as compared to other parts 
 			-> reason because in real time production environment, the ability to finds logs for a bug quickly is invaluable
+			
+GCP pricing philosophy ->
+	- Minute based billing
+	- Sustained Use discount (the more you use the more discount you will get)
+	- Custom Machine types (create a virtual machine that you like)
+	- Pre-emptible instances (economical for batch processing jobs)
+Google's social responsibility -> environment friendly and Google open source contributions
+
+GCP infrastructure->
+	-Physical
+		-Backbone network(fibre optic cable)
+		-Data Centre (efficient)

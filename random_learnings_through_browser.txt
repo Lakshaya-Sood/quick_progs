@@ -29,9 +29,16 @@
   Internet access control, access blocked websites and so on
 - there are protocols for just sending(like SMTP) and receiving(like POP3, IMAP) mails.
 - HTTPS = HTTP + SSL(secure layer)
-- threading based vs event driven based(everything in a single thread like node, redis & nginx)
+- threading based(new thread for each new process that will take a part of hardware and blocks if some process is waiting for something) 
+  vs 
+  event driven based(everything in a single thread like node, redis & nginx)
+- Apache vs nGinX
+So if we have multiple threads that are all event driven then this will the most powerful thing in terms of hardware utilization and handling a huge amount of request 
 - JavaScript(event loop -> https://www.youtube.com/watch?v=8aGhZQkoFbQ )
 	-> callstack (when error shows stack to trace/ error shows maximum stack exceeded)
 	-> Web browser APi - where inbuilt functions are executes (also if any new was registered) 
 - Best tool to visualize JavaScript Code =======> LINK - latentflip.com/loupe/
 - JavaScript Promises -> https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bKLPQvPRNNE65kBL62mVfx
+- Linus Flavours types
+	- Red hat based
+	- Debian based
