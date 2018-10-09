@@ -1,0 +1,7 @@
+There are two ways colors are combined- (ref- http://printingcode.runemadsen.com/lecture-color/)
+1) subtractive - 
+   -- All colors created with PAINT or INK will combine in a subtractive way
+   -- means mixing all the paint colors will create black instead of white
+2) additive - 
+  -- All colors created with LIGHT will combine in a additive way
+  -- means presence of all color is white while absence is black
