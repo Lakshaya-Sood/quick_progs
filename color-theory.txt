@@ -1,3 +1,10 @@
+Tint - If a color is made lighter by adding white, the result is called a tint.
+Shade - If black is added, the darker version is called a shade.
+Tone - If gray is added, the result is a different tone.
+
+warm colors are Red, Orange and Yellow
+cool colors are Green, Blue and Magenta
+
 There are two ways colors are combined- (ref- http://printingcode.runemadsen.com/lecture-color/)
 1) subtractive - 
    -- All colors created with PAINT or INK will combine in a subtractive way
