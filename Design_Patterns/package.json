@@ -1,0 +1,18 @@
+{
+  "name": "design_patterns",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "design patterns",
+    "typescript",
+    "coding paradigm"
+  ],
+  "author": "Lakshaya Sood <lakshaya.27081995@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^3.4.5"
+  }
+}
