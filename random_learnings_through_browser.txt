@@ -42,3 +42,7 @@ So if we have multiple threads that are all event driven then this will the most
 - Linus Flavours types
 	- Red hat based
 	- Debian based
+- two ways to do basic documentaion on github
+	- using markdown and connecting pages
+	- using wiki feature for github repository
+- 
