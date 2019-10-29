@@ -1,0 +1,9 @@
+---
+# MARKDOWN RULES CONFIGURATION
+
+#1. no-inline-html
+MD033: false
+# Refs:
+#   configuring: https://github.com/DavidAnson/vscode-markdownlint#configure
+#   cheetsheet: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
