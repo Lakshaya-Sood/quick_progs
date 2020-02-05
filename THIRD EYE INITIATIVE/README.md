@@ -15,7 +15,9 @@ A collection of notes that i find eye opening :)
 7. [YAML](./topics/7_yaml.md)
 
 TBD
+
 RDP vs SSH
+
 RDP is a windows specific protocol for remote desktop management when you're away from the host PC. RDP will give you the whole windows experience with a GUI.
 
 SSH is a secure shell for Linux (or Unix) that will allow you to remotely execute command line arguments, but you won't have a GUI, only a command prompt (BaSH, most likely).
