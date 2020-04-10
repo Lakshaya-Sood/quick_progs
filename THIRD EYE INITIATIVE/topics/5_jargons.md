@@ -17,4 +17,11 @@ providing necessary support to the primary activities or operation of an organiz
 ```text
  The crux of a problem or argument is the most important or difficult part of it which affects everything else.
 ```
+
+5. **regressions**
+
+```text
+A return to a former or less developed state.
+```
+
 [[↑] Back to top](#Jargons)
