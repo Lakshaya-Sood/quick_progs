@@ -1,0 +1,4 @@
+| Name                  | Shortcut         |
+| --------------------- | ---------------- |
+| Preview Markdown file | Shift + Ctrl + V |
+|                       |                  |
