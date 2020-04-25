@@ -22,4 +22,19 @@
 touch [filename] //creates an empty file
 ```
 
-3. 
+3. **chmod** & **chown**
+```Text
+The chmod command stands for "change mode", and allows changing permissions of files and folders, also known as "modes" in UNIX. The chown command stands for "change owner", and allows changing the owner of a given file or folder, which can be a user and a group. That's the difference between them in a nutshell.
+
+Let's say you are the owner of a file named myfile, and you want to set its permissions so that:
+
+1. the user can read, write, and execute it
+2. members of your group can read and execute it and
+3. others may only read it.
+
+This command will do the trick: 
+Alphanumeric -> chmod u=rwx,g=rx,o=r myfile
+Octal -> chmod 754 myfile
+
+for examples on chown hypothetical scenarios - https://www.computerhope.com/unix/uchown.htm 
+```
